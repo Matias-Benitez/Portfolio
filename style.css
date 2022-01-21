@@ -1,4 +1,28 @@
-p {
-    color: aquamarine;
+/* Body */
+body{
+    background-color: wheat;
+}
+/* Fin body */
+
+/* Header */
+.header {
+    background-color: #000;
 }
 
+header nav ul li a {
+    color: white;
+}
+
+/* Fin header*/
+
+
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}

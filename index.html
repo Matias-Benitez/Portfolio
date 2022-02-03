@@ -5,122 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matías Benitez</title>
+
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <p></p>
-
 </head>
+
 <body>
-    <!-- Inicio header -->
-     <header id="Inicio" class="header">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#Inicio"> Inicio</a>
-                </li>
-                <li>
-                    <a href="#Sobremi"> Sobre mi</a>
-                </li>
-                <li>
-                    <a href="#Portfolio"> Portfolio</a>
-                </li>
-                <li>
-                    <a href="#Skills"> Skills</a>
-                </li>
-                <li><a href="#Contacto"> Contacto</a>
-                </li>
-            </ul>
+    <!-- Header -->
+     <header id="inicio">
+        <nav class="main container">
+            <a href="#inicio"> Inicio</a>
+            <a href="#sobre-mi"> Sobre mi</a>
+            <a href="#portfolio"> Portfolio</a>
+            <a href="#skills"> Skills</a>
+            <a href="#contacto"> Contacto</a> 
         </nav>
     </header>
-    <!-- Fin header -->
-    <!-- Sección uno -->
-    <main>
-        <section class="inicio">
-            <h1>Desarrollador UX/UI</h1>
-                <h3>Matías Benitez</h3>
-                    <ul>
-                        <li>
-                            <a href="#Sobremi"> Conoceme</a>
-                        </li>
-                        <li>
-                            <a href="#Contacto"> Contactame</a>
-                        </li>
-                    </ul>
-        </section>
-        <!-- Fin sección uno -->
+    <!-- End header -->
+
+    <!-- Section one -->
+<main>
+    <section class="home">
+        <h1>Desarrollador UX/UI</h1>
+        <h3>Matías Benitez</h3>
+        <div class="button">
+            <a href="#sobre-mi"> Conoceme</a>
+            <a href="#contacto"> Contactame</a>
+        </div>
+    </section>
+    <!-- End section one -->
  
-        <!-- Sección dos -->
-        <section id="Sobremi">
-            <img src="Images/foto de perfil.jpg" alt="Foto perfil">    
-            <h2>Hola, soy Matías Benitez</h2>
-                <p>Este es mi primer sitio Web, donde se utilizan principalmente los lenguajes <strong>Html y Css</strong>.¡Este es mi primer proyecto!¡Un Portfolio Personal que con el paso del tiempo se le iran haciendo modificaciones y añadiendo trabajos!. Estoy una etapa de estudios y capacitación, siguiendo la carrera de "Desarrollador UX/UI" en Coder House, mi objetivo es terminar con la mejor puntuación posible y estar en el top 10 de alumnos.</p>
-                <ul>
-                    <li>
-                        <a href="#Portfolio"> Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#Misredes"> Mis redes</a>
-                    </li>
-                </ul>
-        </section>
-        <!-- Fin sección dos -->
+    <!-- Section two -->
+    <section id="sobre-mi">
+        <img src="Images/foto-de-perfil.jpg" alt="Foto perfil">    
+        <h2 class="title">Hola, soy Matías Benitez</h2>
+            <p>Este es mi primer sitio Web, donde se utilizan principalmente los lenguajes <strong>Html y Css</strong>.¡Este es mi primer proyecto!¡Un Portfolio Personal que con el paso del tiempo se le iran haciendo modificaciones y añadiendo trabajos!. Estoy una etapa de estudios y capacitación, siguiendo la carrera de "Desarrollador UX/UI" en Coder House, mi objetivo es terminar con la mejor puntuación posible y estar en el top 10 de alumnos.</p>
+            <a href="#portfolio"> Portfolio</a>
+            <a href="#mis-redes"> Mis redes</a>
+    </section>
+    <!-- End section two -->
  
-        <!-- Sección tres -->
-        <section id="Skills">
-            <h2>Skills</h2>
-                <div>        
-                    <img src="Images/html-5.png" alt="Logo HTML">
-                    <img src="Images/css.png" alt="Logo CSS">
-                    <img src="Images/ilustrador-adobe.png" alt="Logo ILLUSTRATOR">
-                    <img src="Images/figma.png" alt="Logo FIGMA">
+    <!-- Section trhee -->
+    <section id="skills">
+        <h2 class="title">Skills</h2>
+        <div>        
+            <img src="images/html-5.png" alt="Logo HTML">
+            <img src="images/css.png" alt="Logo CSS">
+            <img src="images/ilustrador-adobe.png" alt="Logo ILLUSTRATOR">
+            <img src="images/figma.png" alt="Logo FIGMA">
+        </div>
+    </section>
+    <!-- End section trhee -->
+ 
+    <!-- Section four -->
+    <section id="portfolio">
+        <h2 class="title">Portfolio</h2>
+            <a href="https://www.behance.net/gallery/134317169/Rediseno-UXUI-Wabi" target="_blank"> 
+                <IMG SRC="images/Wabi.png" ALT="Rediseño Wabi">
+            </a>
+            <a href="https://www.behance.net/gallery/128971921/Veggies-%28Proyecto-Final-UxUi%29" target=”_blank”> 
+                <IMG SRC="images/App SV.png" ALT="App SV">
+            </a>
+            <a href="https://www.behance.net/gallery/121406529/Somos-Veggies" target="_blank"	> 
+                <IMG SRC="images/Somos Veggies.png" ALT="Somos Veggies">
+            </a>
+        </section>
+    <!-- End section four -->
+ 
+    <!-- Section five -->
+    <section id="contacto">
+        <h2 class="title">Contacto</h2> 
+            <form>
+            <fieldset>
+                <legend>Contactame</legend>
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Tu nombre"> 
                 </div>
-            </section>
-        <!-- Fin sección tres -->
- 
-        <!-- Sección cuatro -->
-        <section id="Portfolio">
-            <h2>Portfolio</h2>
-                <a href="https://www.behance.net/gallery/134317169/Rediseno-UXUI-Wabi" target="_blank"> 
-                    <IMG SRC="Images/Wabi.png" ALT="Rediseño Wabi">
-                </a>
-                <a href="https://www.behance.net/gallery/128971921/Veggies-%28Proyecto-Final-UxUi%29" target=”_blank”> 
-                    <IMG SRC="Images/App SV.png" ALT="App SV">
-                </a>
-                <a href="https://www.behance.net/gallery/121406529/Somos-Veggies" target="_blank"	> 
-	                <IMG SRC="Images/Somos Veggies.png" ALT="Somos Veggies">
-                </a>
-         </section>
-        <!-- Fin sección cuatro -->
- 
-        <!-- Sección cinco -->
-        <section id="Contacto">
-            <h2>Contacto</h2> 
-            <p>No dudes en contactarme</p>
-            <p>Mensaje</p>
-            <input type="text">
-            <p>Nombre</p>
-            <input type="text">
-            <p>Email</p>
-            <input type="text">
-            <p>Asunto</p>
-            <input type="text">
-        </section>
-        <!-- Fin sección cinco -->        
+                <div>
+                    <label>Teléfono</label>
+                    <input type="tel" placeholder="Tu teléfono">
+                </div>
+                <div>
+                    <label>Correo</label>
+                    <input type="email" placeholder="Tu Email">
+                </div>
+                <div>
+                    <label>Mensaje</label>
+                    <textarea></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </fieldset>
+            </form>
+    </section>
+    <!-- End section five -->        
 </main>
-<!-- pie de página -->
-<footer id="Misredes">
+
+<!-- Footer -->
+<footer id="mis-redes">
       <nav>
-		<a href="https://www.linkedin.com/in/mat%C3%ADas-benitez/" target="_blank"><img SRC="Images/linkedin.png" ALT="Logo linkedin"></a>
-        <a href="https://www.behance.net/matiasbenitez4" target="_blank"><img SRC="Images/logotipo-de-behance.png" ALT="Logo behance"></a>
-        <a href="" target="_blank"><img SRC="Images/github.png" ALT="Logo github"></a>
+		<a href="https://www.linkedin.com/in/mat%C3%ADas-benitez/" target="_blank"><img SRC="images/linkedin.png" ALT="Logo linkedin"></a>
+        <a href="https://www.behance.net/matiasbenitez4" target="_blank"><img SRC="images/logotipo-de-behance.png" ALT="Logo behance"></a>
+        <a href="" target="_blank"><img SRC="images/github.png" ALT="Logo github"></a>
         <p>Iconos diseñados por Flaticon from https://www.flaticon.es</p>
     </nav>
-   
-</footer>
-<!-- Fin pie de página -->
+   </footer>
+<!-- End footer -->
+
 </body>
 </html>

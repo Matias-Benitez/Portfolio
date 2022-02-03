@@ -2,102 +2,65 @@
     margin: 0;
     padding: 0;
 }
-h1 {
-    font-size: 70px;
+
+:root {
+    --white: #fff;
+    --black: #212529;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --background-color: #ffcfff;
 }
-h2 {
-    font-size: 35px;
-    margin: 60px 10px 20px 10px;
+
+/*Header*/
+.main {
+    color: var(--white);
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-around;
+}
+.main a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+}
+.main a:hover {
+    background-color: var(--secondary);
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+/*End header*/
+
+/*Section one*/
+.home {
+    background-image: url(./images/developer.jpg);
+    background-size: cover;
+    height: 450px;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: var(--white);
+    margin: 10px 0px;
 }
 h3 {
-    font-size: 25px;
-    margin: 5px;
-}
-li {
-    list-style-type: none;
-    display: inline;
     text-align: center;
-    margin: 20px 10px 25px 10px;
-    padding-top: 10px;    
-}
-a {
-    text-decoration: none;
-}
-p {
-    font-family: 'Nunito', sans-serif;
     font-size: 20px;
-    margin: 10px 20px 5px 20px;
+    color: var(--white);
+    margin: 10px 0px;
 }
-input {
-    margin: 0px 10px 10px 20px;
-}
-
-/* Body */
-body {
-    background-color: rgb(210, 238, 247);
-}
-footer {
-    margin: 50px 20px 5px 20px;
-}
-/* Fin body */
-
-/* Header */
-.header {
-    background-color: #000;
-    padding: 35px;
-    margin-bottom: 10px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-}
-header nav ul li {
-    display: inline;
-    margin: 15px;
-}
-header nav ul li a {
-    color: white;
-}
-/* Fin header*/
-
-
-/* Sección uno */
-.inicio {
-    margin-top: 100px;
+.title {
     text-align: center;
-   }
-/* Fin sección uno */
-
-/* Sección dos */
-#Sobremi {
-    text-align:center;
-    margin: 50px;
+    font-size: 35px;
 }
-/* Fin sección dos */
-
-/* Sección tres */
-#Skills {
-    text-align:center;
+.button a{
+    text-decoration: none;
+    color: var(--white);
 }
-/* Fin sección tres */
-
-/* Sección cuatro */
-#Portfolio {
+.button {
     text-align: center;
 }
-
-/* Fin sección cuatro */
-
-/* Sección cinco */
-#Contacto {
-    text-align: center;
-}
-
-/* Fin sección cinco */
-
-/* Pie de pagina */
-#Misredes {
-    text-align: center;
-    }
-
-/* Fin pie de pagina */
+/*End section one*/

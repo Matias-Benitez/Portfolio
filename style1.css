@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #fff;
+    --black: #212529;
+    --primario: 
+    --background-color: #ffcfff;
+}
+
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 35px;
+    margin: 60px 10px 20px 10px;
+}
+h3 {
+    font-size: 25px;
+    margin: 5px;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    margin: 20px 10px 25px 10px;
+    padding-top: 10px;    
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin: 10px 20px 5px 20px;
+}
+input {
+    margin: 0px 10px 10px 20px;
+}
+
+/* Body */
+body {
+    background-color: rgb(210, 238, 247);
+}
+footer {
+    margin: 50px 20px 5px 20px;
+}
+/* Fin body */
+
+/* Header */
+.header {
+    background-color: #000;
+    padding: 15px;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.list-header {
+    display: inline;
+    margin: 15px;
+}
+header nav ul li a {
+    color: white;
+}
+/* Fin header*/
+
+
+/* Sección uno */
+.inicio {
+    margin-top: 100px;
+    text-align: center;
+   }
+/* Fin sección uno */
+
+/* Sección dos */
+#sobre-mi {
+    text-align:center;
+    margin: 50px;
+}
+/* Fin sección dos */
+
+/* Sección tres */
+#skills {
+    text-align:center;
+}
+/* Fin sección tres */
+
+/* Sección cuatro */
+#portfolio {
+    text-align: center;
+}
+
+/* Fin sección cuatro */
+
+/* Sección cinco */
+#contacto {
+    text-align: center;
+}
+
+/* Fin sección cinco */
+
+/* Pie de pagina */
+#mis-redes {
+    text-align: center;
+    }
+
+/* Fin pie de pagina */

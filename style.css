@@ -18,28 +18,27 @@ h1 {
 h2 {
     text-align: center;
     font-size: 45px;
-    margin: 10px 0px;
+    margin: 30px 0px;
 }
 h3 {
     font-size: 30px;
     color: var(--white);
     margin-bottom: 30px;
+    color: var(--white);
+}
+p {
+    font-size: 20px;
 }
 .button {
     background-color: var(--white);
     color: var(--black);
     text-decoration: none;
     padding: 8px 15px;
-    margin: 10px 5px;
+    margin: 10px 5px 30px 5px;
     font-weight: bold;
     border-radius: 5px;
     border: 1px solid var(--black);
 }
-
-/*body{
-    background-image: linear-gradient(to top, #000 0%, var(--white) 100% );
-}*/
-
 
 /*Header*/
 .main {
@@ -65,11 +64,6 @@ h3 {
 .main a:hover {
     background-color: var(--secondary);
 }
-.container {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-}
 /*End header*/
 
 /*Section one*/
@@ -88,38 +82,68 @@ h3 {
 /*End section one*/
 
 /*Section two*/
+.container {
+    width: 10000px;
+    margin: 50px auto;   
+    text-align: center;
+}
 .grid-profile {
     display: grid;
-    grid-template-columns: repeat(2, 300px);
-    grid-template-rows: repeat(2, 300px);
-    grid-gap: 5px;
-    border: 2px solid black;
+    grid-template-columns: repeat(2, 550px);
+    grid-template-rows: repeat(2, 130px);
+    column-gap: 30px;
 }
 .grid-item-profile {
-    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .first-item{
     grid-row: 1 / 3;
+    display: flex;
+    justify-content: end;
 }
+.button-profile {
+    display: flex;
+    justify-content: center;
+}
+
 
 /*End section two*/
 
 /*Section three*/
 .skills {
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px auto;
 }
 /*End section three*/
 
 /*Section four*/
 .portfolio {
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px auto;
 }
 /*End section four*/
 
 /*Section five*/
 .form {
-    text-align: center;
-    margin: 30px;
+    margin: 0px auto;
+}
+.form fieldset {
+    border: none;
+}
+.container-camps {
+
+}
+.camps {
+    margin-bottom: 10px;
+}
+.camps label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
 }
 /*End section five*/
 

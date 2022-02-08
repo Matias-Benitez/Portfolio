@@ -38,6 +38,10 @@ p {
     font-weight: bold;
     border-radius: 5px;
     border: 1px solid var(--black);
+    font-size: 15px;
+}
+.button:hover {
+    cursor: pointer;
 }
 
 /*Header*/
@@ -83,9 +87,8 @@ p {
 
 /*Section two*/
 .container {
-    width: 10000px;
-    margin: 50px auto;   
-    text-align: center;
+    width: 80%;
+    margin: 50px 50px 50px 0px;
 }
 .grid-profile {
     display: grid;
@@ -95,7 +98,7 @@ p {
 }
 .grid-item-profile {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 .first-item{
@@ -113,6 +116,7 @@ p {
 
 /*Section three*/
 .skills {
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
     margin: 80px auto;
@@ -130,26 +134,59 @@ p {
 /*Section five*/
 .form {
     margin: 0px auto;
+    width: 80%;
+    
+}
+.grid-camps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.end-item-form {
+    grid-area: 1 / 2 / 3 / 4;
 }
 .form fieldset {
     border: none;
 }
-.container-camps {
-
-}
 .camps {
     margin-bottom: 10px;
+    
 }
 .camps label {
     font-weight: bold;
     margin-bottom: 5px;
     display: block;
 }
+.camps input {
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+    border:solid var(--secondary);
+}
+.camps textarea {
+    width: 100%;
+    height: 100px;
+    border:solid var(--secondary);
+    padding: 15px;
+    border-radius: 5px;
+}
+.send {
+    display: flex;
+    justify-content: center;
+}
 /*End section five*/
 
 /*Footer*/
 .footer {
-    text-align: center;
+    color: var(--white);
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
 /*End footer*/
 

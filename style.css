@@ -55,6 +55,7 @@ p {
     .main {
         flex-direction: row;
         justify-content: start;
+        margin: auto;
     }
 }
 .main a {
@@ -72,7 +73,7 @@ p {
 
 /*Section one*/
 .home {
-    background-image: url(./images/developer.jpg);
+    background-image: url(./images/developer2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -82,7 +83,11 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+@media screen and (max-width: 480px) {
+    .home {
+        text-align: center;       
+    }
+}
 /*End section one*/
 
 /*Section two*/
@@ -110,7 +115,17 @@ p {
     display: flex;
     justify-content: center;
 }
-
+@media screen and (max-width: 480px) {
+    .grid-profile {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin: 30px auto;
+    }
+    .grid-item-profile p {
+        text-align: center;
+    }
+}
 
 /*End section two*/
 
@@ -121,6 +136,20 @@ p {
     justify-content: space-evenly;
     margin: 80px auto;
 }
+@media screen and (max-width: 480px) {
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 30px;
+    }
+    .skills img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+    }
+}
 /*End section three*/
 
 /*Section four*/
@@ -129,13 +158,22 @@ p {
     justify-content: space-evenly;
     margin: 80px auto;
 }
+@media screen and (max-width: 480px) {
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .portfolio img {
+        margin: 15px;
+    }
+}
 /*End section four*/
 
 /*Section five*/
 .form {
     margin: 0px auto;
     width: 80%;
-    
 }
 .grid-camps {
     display: grid;
@@ -146,6 +184,25 @@ p {
     margin: 0 auto;
     padding: 20px;
 }
+@media screen and (max-width: 480px) {
+    .grid-camps {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .grid-camps .camps input {
+        width: 100%;
+        padding: 5px;
+        border-radius: 5px;
+        border:solid var(--secondary);
+    }
+    .grid-camps .camps textarea {
+        width: 100%;
+        border:solid var(--secondary);
+        padding: 15px;
+        border-radius: 5px;
+    }
+}
 .end-item-form {
     grid-area: 1 / 2 / 3 / 4;
 }
@@ -154,7 +211,6 @@ p {
 }
 .camps {
     margin-bottom: 10px;
-    
 }
 .camps label {
     font-weight: bold;
@@ -182,11 +238,19 @@ p {
 
 /*Footer*/
 .footer {
+    width: 100%;
+    padding: 20px 0;
+    margin: 0 auto;
     color: var(--white);
     background-color: var(--black);
-    display: flex;
-    justify-content: space-around;
+    text-align: center;  
+}
+.footer a {
     padding: 20px;
+}
+.footer p {
+    padding: 10px 0;
+    margin-top: 10px;
 }
 /*End footer*/
 

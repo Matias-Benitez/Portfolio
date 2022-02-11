@@ -8,7 +8,7 @@
     --black: #000;
     --primary: #0a0a0a;
     --secondary: #6c757d;
-    --background-color: #ffcfff;
+    --background-color: #1A1A1A;
 }
 
 h1 {
@@ -43,11 +43,29 @@ p {
 .button:hover {
     cursor: pointer;
 }
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.size-nav {
+    height: 50px;
+    width: 50px;
+}
+body { 
+    padding-top: 60px; 
+}
 
-/*Header*/
+/*Header
+
+.bg-nav {
+    color: var(--white);
+    background-color: var(--background-color);  
+    text-decoration: none; 
+}
+
 .main {
     color: var(--white);
-    background-color: var(--black);
+    background-color: var(--background-color);
     display: flex;
     flex-direction: column;
 }
@@ -69,6 +87,7 @@ p {
 .main a:hover {
     background-color: var(--secondary);
 }
+
 /*End header*/
 
 /*Section one*/
@@ -153,7 +172,7 @@ p {
 }
 /*End section three*/
 
-/*Section four*/
+/*Section four
 .portfolio {
     display: flex;
     justify-content: space-evenly;

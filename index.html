@@ -26,7 +26,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-              <img id="inicio" class="size-nav" src="images/Logo3.png" alt="">
+              <img class="size-nav" src="images/logomb.png" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,10 +41,10 @@
                 <a class="nav-link active" href="#sobre-mi">Sobre mi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#portfolio">Portfolio</a>
+                <a class="nav-link active" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#skills">Skills</a>
+                <a class="nav-link active" href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#contacto">Contacto</a>
@@ -56,22 +56,9 @@
 
     <!-- End Header Bootstrap -->
 
-
-    <!-- Header --
-     <header id="inicio">
-        <nav class="main">
-            <a href="#inicio"> Inicio</a>
-            <a href="#sobre-mi"> Sobre mi</a>
-            <a href="#portfolio"> Portfolio</a>
-            <a href="#skills"> Skills</a>
-            <a href="#contacto"> Contacto</a> 
-        </nav>
-    </header>
-    <!-- End header -->
-
     <!-- Section one -->
 <main>
-  <header id="inicio">
+  <header class="background" id="inicio">
     <section class="home">
         <h1>Desarrollador UX/UI</h1>
         <h3>Matías Benitez</h3>
@@ -84,15 +71,15 @@
     <!-- End section one -->
 
     <!-- Section two Bootstrap -->
-    
-    <div id="sobre-mi" class="container">
+    <section id="sobre-mi">
+    <div class="container">
         <h2 class="title">Hola, soy Matías Benitez</h2>
         <div class="row">
           <div class="col-lg-5 col-md-12 col-sm-12 d-flex justify-content-center">
-            <img src="Images/foto-de-perfil.jpg" alt="Foto perfil">
+            <img src="Images/perfil.png" alt="Foto perfil" class="img">
           </div>
           <div class="col-lg-7 col-md-12 col-sm-12">
-            <p>Este es mi primer sitio Web, donde se utilizan principalmente los lenguajes <strong>Html y Css</strong>.¡Este es mi primer proyecto!¡Un Portfolio Personal que con el paso del tiempo se le iran haciendo modificaciones y añadiendo trabajos!. Estoy una etapa de estudios y capacitación, siguiendo la carrera de "Desarrollador UX/UI" en Coder House, mi objetivo es terminar con la mejor puntuación posible y estar en el top 10 de alumnos.</p>
+            <p class="paragraph">Este es mi primer sitio Web, donde se utilizan principalmente los lenguajes <strong>Html y Css</strong>.¡Este es mi primer proyecto!¡Un Portfolio Personal que con el paso del tiempo se le iran haciendo modificaciones y añadiendo trabajos!. Estoy una etapa de estudios y capacitación, siguiendo la carrera de "Desarrollador UX/UI" en Coder House, mi objetivo es terminar con la mejor puntuación posible y estar en el top 10 de alumnos.</p>
           </div>
         </div>
         <div class="button-profile">
@@ -100,41 +87,44 @@
             <a class="button" href="#mis-redes"> Mis redes</a>
         </div>
       </div>
+    </section>
     
-      <!-- End section two Bootstrap -->
+    <!-- End section two Bootstrap -->
 
-    <!-- Section two --
-    <section id="sobre-mi">
-        <div class="grid-profile contenedor">
-            <div class="grid-item-profile first-item" >
-                <img src="Images/foto-de-perfil.jpg" alt="Foto perfil">    
-            </div>
-            <div class="grid-item-profile">
-                <h2 class="title">Hola, soy Matías Benitez</h2>
-            </div>
-            <div class="grid-item-profile">
-                <p>Este es mi primer sitio Web, donde se utilizan principalmente los lenguajes <strong>Html y Css</strong>.¡Este es mi primer proyecto!¡Un Portfolio Personal que con el paso del tiempo se le iran haciendo modificaciones y añadiendo trabajos!. Estoy una etapa de estudios y capacitación, siguiendo la carrera de "Desarrollador UX/UI" en Coder House, mi objetivo es terminar con la mejor puntuación posible y estar en el top 10 de alumnos.</p>
-            </div>
-        </div>
-        <div class="button-profile">
-            <a class="button" href="#portfolio"> Portfolio</a>
-            <a class="button" href="#mis-redes"> Mis redes</a>
-        </div>
-    </section>
-    <!-- End section two -->
- 
-    <!-- Section three -->
+    <!-- Seccion three Bootstrap -->
     <section id="skills">
-        <h2 class="title">Skills</h2>
-        <div class="skills">        
-            <img src="images/html-5.png" alt="Logo HTML">
-            <img src="images/css.png" alt="Logo CSS">
-            <img src="images/ilustrador-adobe.png" alt="Logo ILLUSTRATOR">
-            <img src="images/figma.png" alt="Logo FIGMA">
+      <h2 class="title">Skills</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <img src="images/html-5.png" alt="">
+            <h4>Html</h4>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <img src="images/css-3.png" alt="">
+            <h4>Css</h4>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <img src="images/bootstrap.png" alt="">
+            <h4>Bootstrap</h4>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <img src="images/adobe-illustrator.png" alt="">
+            <h4>Illustrator</h4>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <img src="images/sass.png" alt="">
+            <h4>Sass</h4>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <img src="images/figma.png" alt="">
+            <h4>Figma</h4>
+          </div>
         </div>
+      </div>
     </section>
-    <!-- End section three -->
- 
+    <!-- End section three bootstrap -->
+    
     <!-- Section four bootstrap -->
     <section id="portfolio">
     <h2 class="title">Portfolio</h2>
@@ -167,30 +157,12 @@
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
-
             </div>
         </div>
     </div>
     </section>
     <!-- End section four bootstrap -->
 
-    <!-- Section four 
-    <section id="portfolio">
-        <h2 class="title">Portfolio</h2>
-        <div class="portfolio">
-            <a href="https://www.behance.net/gallery/134317169/Rediseno-UXUI-Wabi" target="_blank"> 
-                <IMG SRC="images/Wabi.png" ALT="Rediseño Wabi">
-            </a>
-            <a href="https://www.behance.net/gallery/128971921/Veggies-%28Proyecto-Final-UxUi%29" target=”_blank”> 
-                <IMG SRC="images/App SV.png" ALT="App SV">
-            </a>
-            <a href="https://www.behance.net/gallery/121406529/Somos-Veggies" target="_blank"	> 
-                <IMG SRC="images/Somos Veggies.png" ALT="Somos Veggies">
-            </a>
-        </div>
-    </section>-->
-    <!-- End section four -->
- 
     <!-- Section five -->
     <section id="contacto">
         <h2 class="title">Contacto</h2> 
@@ -226,9 +198,9 @@
     <!-- Footer -->
     <footer id="mis-redes">
         <nav class="footer">
-            <a href="https://www.linkedin.com/in/mat%C3%ADas-benitez/" target="_blank"><img SRC="images/linkedin.png" ALT="Logo linkedin"></a>
-            <a href="https://www.behance.net/matiasbenitez4" target="_blank"><img SRC="images/logotipo-de-behance.png" ALT="Logo behance"></a>
-            <a class="end-item-footer" href="" target="_blank"><img SRC="images/github.png" ALT="Logo github"></a>
+            <a href="https://www.linkedin.com/in/mat%C3%ADas-benitez/" target="_blank"><img class="footer-img" SRC="images/linkedin.png" ALT="Logo linkedin"></a>
+            <a href="https://www.behance.net/matiasbenitez4" target="_blank"><img class="footer-img" SRC="images/logotipo-de-behance.png" ALT="Logo behance"></a>
+            <a class="end-item-footer" href="" target="_blank"><img class="footer-img" SRC="images/github.png" ALT="Logo github"></a>
             <div>
             <p>Iconos diseñados por Flaticon from https://www.flaticon.es</p>
             </div>

@@ -17,46 +17,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <p></p>
-</head>
+
+    <!-- Animation AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
 
 <body>
 
-    <!-- Header Bootstrap -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-              <img class="size-nav" src="images/logomb.png" alt="">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-             
-              <li class="nav-item">
-                <a class="nav-link active" href="#inicio">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#sobre-mi">Sobre mi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#portfolio">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#contacto">Contacto</a>
-              </li>
-            </ul>
-          </div>
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img class="size-nav" src="images/logomb.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            
+            <li class="nav-item">
+              <a class="nav-link active" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#sobre-mi">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contacto">Contacto</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
+  <!-- End Header -->
 
-    <!-- End Header Bootstrap -->
-
-    <!-- Section one -->
+  <!-- Section one -->
 <main>
   <header class="background" id="inicio">
     <section class="home">
@@ -70,9 +71,9 @@
   </header>
     <!-- End section one -->
 
-    <!-- Section two Bootstrap -->
+    <!-- Section two -->
     <section id="sobre-mi">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <h2 class="title">Hola, soy Matías Benitez</h2>
         <div class="row">
           <div class="col-lg-5 col-md-12 col-sm-12 d-flex justify-content-center">
@@ -89,45 +90,45 @@
       </div>
     </section>
     
-    <!-- End section two Bootstrap -->
+    <!-- End section two -->
 
-    <!-- Seccion three Bootstrap -->
+    <!-- Seccion three -->
     <section id="skills">
       <h2 class="title">Skills</h2>
-      <div class="container">
+      <div class="container" data-aos="zoom-out">
         <div class="row img-skill">
-          <div class="col-lg-2 col-md-4 col-sm-12">
-            <img src="images/html-5.png" alt="logo-html">
+          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+            <img src="images/html-5.png" alt="logo-html" class="img-skill">
             <h4>Html</h4>
           </div>
-          <div class="col-lg-2 col-md-4 col-sm-12">
-            <img src="images/css-3.png" alt="logo-css">
+          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+            <img class="img-skill" src="images/css-3.png" alt="logo-css">
             <h4>Css</h4>
           </div>
-          <div class="col-lg-2 col-md-4 col-sm-12">
-            <img src="images/bootstrap.png" alt="logo-bootstrap">
+          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+            <img class="img-skill" src="images/bootstrap.png" alt="logo-bootstrap">
             <h4>Bootstrap</h4>
           </div>
-          <div class="col-lg-2 col-md-4 col-sm-12">
-            <img src="images/adobe-illustrator.png" alt="logo-illustrator">
+          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+            <img class="img-skill" src="images/adobe-illustrator.png" alt="logo-illustrator">
             <h4>Illustrator</h4>
           </div>
-          <div class="col-lg-2 col-md-4 col-sm-12">
-            <img src="images/sass.png" alt="logo-sass">
+          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+            <img class="img-skill" src="images/sass.png" alt="logo-sass">
             <h4>Sass</h4>
           </div>
-          <div class="col-lg-2 col-md-4 col-sm-12">
-            <img src="images/figma.png" alt="logo-figma">
+          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+            <img class="img-skill" src="images/figma.png" alt="logo-figma">
             <h4>Figma</h4>
           </div>
         </div>
       </div>
     </section>
-    <!-- End section three bootstrap -->
+    <!-- End section three -->
     
-    <!-- Section four bootstrap -->
+    <!-- Section four -->
     <section id="portfolio">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
       <h2 class="title">Portfolio</h2>
         <div class="card-group">
           <div class="card text-white bg-dark bg-gradient">
@@ -154,9 +155,9 @@
         </div>
       </div>
     </section>
-    <!-- End section four bootstrap -->
+    <!-- End section four -->
 
-    <!-- Section five bootstrap -->
+    <!-- Section five -->
     <section id="contacto">
         <h2 class="title">Contacto</h2>
         <div class="container">
@@ -189,7 +190,7 @@
         </div>
         </div>
         </section>
-    <!-- Section five bootstrap -->     
+    <!-- Section five -->     
 </main>
 
     <!-- Footer -->
@@ -208,5 +209,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
 </html>

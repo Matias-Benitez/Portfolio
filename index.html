@@ -125,104 +125,71 @@
     </section>
     <!-- End section three bootstrap -->
     
+    <!-- Section four bootstrap -->
     <section id="portfolio">
       <div class="container">
       <h2 class="title">Portfolio</h2>
         <div class="card-group">
-          <div class="card">
-            <img src="images/Slide-0.png" class="card-img-top" alt="Slide-0">
+          <div class="card text-white bg-dark bg-gradient">
+            <a href="https://www.behance.net/gallery/134317169/Rediseno-UXUI-Wabi" target="_blank"><img class="card-img-top" src="images/Slide-0.png" alt="Slide-0"></a>
             <div class="card-body">
               <h5 class="card-title">Rediseño app Wabi</h5>
               <p class="card-text">Mediante una investigación, se definió la idea de prototipar y rediseñar la app Wabi para ofrecer mejoras y soluciones a los usuarios.</p>
             </div>
           </div>
-          <div class="card">
-            <img src="images/Slide-1.png" class="card-img-top" alt="Slide-1">
+          <div class="card text-white bg-dark bg-gradient">
+            <a href="https://www.behance.net/gallery/128971921/Veggies-%28Proyecto-Final-UxUi%29" target="_blank"><img class="card-img-top" src="images/Slide-1.png" alt="Slide-1"></a>
             <div class="card-body">
               <h5 class="card-title">App delivery Veggies</h5>
               <p class="card-text">Ante la búsqueda de locales gastronómicos especializados en platos a base de plantas, se crea Veggies, una fuente de información en una app movil con orientación a delivery.</p>
             </div>
           </div>
-          <div class="card">
-            <img src="images/Slide-2.png" class="card-img-top" alt="Slide-2">
+          <div class="card text-white bg-dark bg-gradient">
+            <a href="https://www.behance.net/gallery/121406529/Somos-Veggies" target="_blank"><img class="card-img-top" src="images/Slide-2.png" alt="Slide-2"></a>
             <div class="card-body">
-              <h5 class="card-title">Manual de marca</h5>
-              <p class="card-text">Mediante este manual, se generará la identidad de la marca "Somos Veggies", describiendo las pautas y normas a seguir para el correcto uso.</p>
+              <h5 class="card-title">Manual de marca SV</h5>
+              <p class="card-text">Con este manual, se generará la identidad de la marca "Somos Veggies", describiendo las pautas y normas a seguir para su correcto uso.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-
-    <!-- Section four bootstrap -->
-    <!-- <section id="portfolio">
-    <h2 class="title">Portfolio</h2>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="images/Slide-0.png" class="d-block w-100" alt="Wabi">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="images/Slide-1.png" class="d-block w-100" alt="Somos-Veggies">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="images/Slide-2.png" class="d-block w-100" alt="Somos-Veggies">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-            </div>
-        </div>
-    </div>
-    </section> -->
     <!-- End section four bootstrap -->
 
-    <!-- Section five -->
+    <!-- Section five bootstrap -->
     <section id="contacto">
-        <h2 class="title">Contacto</h2> 
-            <form class="form">
-            <fieldset>
-            <div class="grid-camps">
-                <div class="camps">
-                    <label>Nombre</label>
-                    <input type="text" placeholder="Tu nombre"> 
-                </div>
-                <div class="camps">
-                    <label>Teléfono</label>
-                    <input type="tel" placeholder="Tu teléfono">
-                </div>
-                <div class="camps">
-                    <label>Correo</label>
-                    <input type="email" placeholder="Tu Email">
-                </div>
-                <div class="camps end-item-form">
-                    <label>Mensaje</label>
-                    <textarea></textarea>
-                </div>
+        <h2 class="title">Contacto</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col was-validated">
+              <label>Nombre</label>
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" required>
             </div>
-            <div class="send">
-                <input class="button" type="submit" value="Enviar">
+            <div class="col was-validated">
+              <label>Correo</label>
+              <input type="email" class="form-control" placeholder="ejemplo@correo.com" aria-label="ejemplo@correo.com" required>
             </div>
-            </fieldset>
-            </form>
-    </section>
-    <!-- End section five -->        
+          </div>
+          <div class="row">
+            <div class="col was-validated">
+              <label>Asunto</label>
+              <input type="text" class="form-control" placeholder="Asunto" aria-label="Asunto" required>
+            </div>
+            <div class="col was-validated">
+              <label>Teléfono</label>
+              <input type="tel" class="form-control" placeholder="Teléfono" aria-label="Teléfono" required>
+            </div>
+          </div>
+          <div class="mb-3 was-validated">
+            <label for="validationTextarea" class="form-label">Mensaje</label>
+            <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Mensaje" required></textarea>
+          </div>
+          <div class="send">
+            <input class="button" type="submit" value="Enviar">
+        </div>
+        </div>
+        </section>
+    <!-- Section five bootstrap -->     
 </main>
 
     <!-- Footer -->
@@ -230,7 +197,7 @@
         <nav class="footer">
             <a href="https://www.linkedin.com/in/mat%C3%ADas-benitez/" target="_blank"><img class="footer-img" SRC="images/linkedin.png" ALT="Logo linkedin"></a>
             <a href="https://www.behance.net/matiasbenitez4" target="_blank"><img class="footer-img" SRC="images/logotipo-de-behance.png" ALT="Logo behance"></a>
-            <a class="end-item-footer" href="" target="_blank"><img class="footer-img" SRC="images/github.png" ALT="Logo github"></a>
+            <a class="end-item-footer" href="https://github.com/Matias2022/Coder" target="_blank"><img class="footer-img" SRC="images/github.png" ALT="Logo github"></a>
             <div>
             <p>Iconos diseñados por Flaticon from https://www.flaticon.es</p>
             </div>

@@ -1,0 +1,42 @@
+.home {
+    background-image: url(./images/developer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 420px) {
+    .home h1 {
+        text-align: center;
+        font-size: 250%;
+    }
+    .home h3 {
+        font-size: 150%;
+    }
+    .home {
+        height: 100%;
+    }
+    .button {
+        margin: 10px 5px 30px 5px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .home h1 {
+        text-align: center;
+        font-size: 250%;
+    }
+    .home h3 {
+        font-size: 150%;
+    }
+    .home {
+        height: 300px;
+    }
+    .button {
+        margin: 10px 5px 30px 5px;
+    }
+}

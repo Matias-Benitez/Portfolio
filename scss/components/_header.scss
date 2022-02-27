@@ -1,3 +1,5 @@
+@import '../base/variables';
+
 .home {
     background-image: url(./images/developer.jpg);
     background-size: cover;
@@ -11,30 +13,30 @@
 }
 
 @media screen and (max-width: 420px) {
-    .home h1 {
+    .home {
+        height: 100%;
+    }
+    h1 {
         text-align: center;
         font-size: 250%;
     }
-    .home h3 {
+    h3 {
         font-size: 150%;
-    }
-    .home {
-        height: 100%;
     }
     .button {
         margin: 10px 5px 30px 5px;
     }
 }
 @media screen and (max-width: 780px) {
-    .home h1 {
+    .home {
+        height: 300px;
+    }
+    h1 {
         text-align: center;
         font-size: 250%;
     }
-    .home h3 {
+    h3 {
         font-size: 150%;
-    }
-    .home {
-        height: 300px;
     }
     .button {
         margin: 10px 5px 30px 5px;

@@ -1,0 +1,66 @@
+@import '../base/variables';
+
+#sobre-mi {
+    background-color: $bg-color;
+    padding: 20px;
+
+    .button-profile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .title {
+        color: $white;
+        padding: 25px 0;
+    }
+
+    .paragraph{
+        color: $white;
+        margin: auto;
+        padding-top: 20px; 
+    }
+
+    .img {
+        border-radius: 100%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .paragraph{
+        color: $white;
+        margin: auto;
+        padding: 30px; 
+        text-align: center;
+    }
+    .img {
+        border-radius: 100%;
+        width: 50%;
+    }
+    .title {
+        text-align: center;
+        font-size: 200%;
+    }
+    h5 {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .paragraph{
+        color: $white;
+        margin: auto;
+        padding: 30px; 
+        text-align: center;
+    }
+    .img {
+        border-radius: 100%;
+        width: 50%;
+    }
+    .title {
+        text-align: center;
+        font-size: 200%;
+    }
+    h5 {
+        font-size: 15px;
+    }
+}

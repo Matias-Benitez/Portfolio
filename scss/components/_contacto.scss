@@ -1,0 +1,17 @@
+@import '../base/variables';
+
+#contacto {
+    background-color: $primary;
+    padding: 20px;
+
+    .send {
+    display: flex;
+    justify-content: center;
+}
+    label {
+    font-weight: bold;
+    margin: 15px 0px;
+    display: block;
+    color: $white;
+}
+}

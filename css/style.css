@@ -1,3 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 70px;
+  color: #fff;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+  margin: 30px 0px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 18px;
+  color: #fff;
+  margin: 20px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+}
+
+.button {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  padding: 8px 15px;
+  margin: 10px 10px 30px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 15px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  padding-top: 55px;
+}
+
 .home {
   background-image: url(./images/developer.jpg);
   background-size: cover;
@@ -11,17 +77,17 @@
 }
 
 @media screen and (max-width: 420px) {
-  .home h1 {
+  .home {
+    height: 100%;
+  }
+
+  h1 {
     text-align: center;
     font-size: 250%;
   }
 
-  .home h3 {
+  h3 {
     font-size: 150%;
-  }
-
-  .home {
-    height: 100%;
   }
 
   .button {
@@ -29,43 +95,106 @@
   }
 }
 @media screen and (max-width: 780px) {
-  .home h1 {
+  .home {
+    height: 300px;
+  }
+
+  h1 {
     text-align: center;
     font-size: 250%;
   }
 
-  .home h3 {
+  h3 {
     font-size: 150%;
-  }
-
-  .home {
-    height: 300px;
   }
 
   .button {
     margin: 10px 5px 30px 5px;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 70px;
+  color: #fff;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+  margin: 30px 0px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 18px;
+  color: #fff;
+  margin: 20px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+}
+
+.button {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  padding: 8px 15px;
+  margin: 10px 10px 30px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 15px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  padding-top: 55px;
+}
+
 .footer {
   width: 100%;
   padding: 5px 0;
   margin: 0 auto;
-  color: var(--white);
-  background-color: var(--black);
+  color: #fff;
+  background-color: #000;
   text-align: center;
 }
-
 .footer a {
   padding: 10px;
   margin-top: 5px;
 }
-
 .footer p {
   padding: 5px 0;
   margin-top: 10px;
 }
-
-.footer-img {
+.footer .footer-img {
   width: 4%;
   padding-top: 15px;
 }
@@ -76,7 +205,7 @@
     margin: auto;
   }
 
-  .footer p {
+  p {
     font-size: 80%;
     padding: 0px;
   }
@@ -85,6 +214,469 @@
     width: 10%;
     padding-top: 5px;
   }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 70px;
+  color: #fff;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+  margin: 30px 0px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 18px;
+  color: #fff;
+  margin: 20px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+}
+
+.button {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  padding: 8px 15px;
+  margin: 10px 10px 30px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 15px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  padding-top: 55px;
+}
+
+#contacto .send, #sobre-mi .button-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sobre-mi {
+  background-color: #1a1e21;
+  padding: 20px;
+}
+#sobre-mi .title {
+  color: #fff;
+  padding: 25px 0;
+}
+#sobre-mi .paragraph {
+  color: #fff;
+  margin: auto;
+  padding-top: 20px;
+}
+#sobre-mi .img {
+  border-radius: 100%;
+  width: 80%;
+}
+
+@media screen and (max-width: 420px) {
+  .paragraph {
+    color: #fff;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .img {
+    border-radius: 100%;
+    width: 50%;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 200%;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .paragraph {
+    color: #fff;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .img {
+    border-radius: 100%;
+    width: 50%;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 200%;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 70px;
+  color: #fff;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+  margin: 30px 0px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 18px;
+  color: #fff;
+  margin: 20px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+}
+
+.button {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  padding: 8px 15px;
+  margin: 10px 10px 30px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 15px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  padding-top: 55px;
+}
+
+#portfolio {
+  background-color: #1a1e21;
+  padding: 20px;
+}
+#portfolio .card {
+  padding: 5px;
+  margin: 15px;
+  text-align: center;
+}
+#portfolio .card-text {
+  font-size: 16px;
+  margin: auto;
+  padding: 25px 0 20px 0;
+}
+#portfolio .card:hover {
+  transform: scale(1.05);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 70px;
+  color: #fff;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+  margin: 30px 0px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 18px;
+  color: #fff;
+  margin: 20px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+}
+
+.button {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  padding: 8px 15px;
+  margin: 10px 10px 30px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 15px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  padding-top: 55px;
+}
+
+#skills {
+  background-color: #292929;
+  padding: 20px 0;
+}
+#skills .skills {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px auto 40px auto;
+}
+
+@media screen and (max-width: 480px) {
+  .img-skill {
+    width: 10%;
+    text-align: center;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 780px) {
+  .img-skill {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 70px;
+  color: #fff;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+  margin: 30px 0px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 18px;
+  color: #fff;
+  margin: 20px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+}
+
+.button {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  padding: 8px 15px;
+  margin: 10px 10px 30px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 15px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  padding-top: 55px;
+}
+
+#contacto .send, #sobre-mi .button-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contacto {
+  background-color: #292929;
+  padding: 20px;
+}
+#contacto label {
+  font-weight: bold;
+  margin: 15px 0px;
+  display: block;
+  color: #fff;
+}
+
+#sobre-mi .button-profile, #contacto .send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 70px;
+  color: #fff;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+  margin: 30px 0px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 18px;
+  color: #fff;
+  margin: 20px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+}
+
+.button {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  padding: 8px 15px;
+  margin: 10px 10px 30px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 15px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  padding-top: 55px;
 }
 
 /*# sourceMappingURL=style.css.map */

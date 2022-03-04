@@ -1,12 +1,13 @@
 @import '../base/variables';
+@import '../base/maps';
+@import '../base/extends';
 
 #contacto {
     background-color: $primary;
     padding: 20px;
 
     .send {
-    display: flex;
-    justify-content: center;
+    @extend %flexbox;
 }
     label {
     font-weight: bold;

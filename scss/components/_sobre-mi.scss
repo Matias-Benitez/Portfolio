@@ -1,12 +1,13 @@
 @import '../base/variables';
+@import '../base/maps';
+@import '../base/extends';
 
 #sobre-mi {
     background-color: $bg-color;
     padding: 20px;
 
     .button-profile {
-        display: flex;
-        justify-content: center;
+        @extend %flexbox;
     }
 
     .title {
@@ -31,14 +32,14 @@
         color: $white;
         margin: auto;
         padding: 30px; 
-        text-align: center;
+        text-align: map-get($landing, text);
     }
     .img {
         border-radius: 100%;
         width: 50%;
     }
     .title {
-        text-align: center;
+        text-align: map-get($landing, text);
         font-size: 200%;
     }
     h5 {
@@ -50,14 +51,14 @@
         color: $white;
         margin: auto;
         padding: 30px; 
-        text-align: center;
+        text-align: map-get($landing, text);
     }
     .img {
         border-radius: 100%;
         width: 50%;
     }
     .title {
-        text-align: center;
+        text-align: map-get($landing, text);
         font-size: 200%;
     }
     h5 {

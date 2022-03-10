@@ -67,6 +67,9 @@ img {
 body { 
     padding-top: 55px; 
 }
+.disclaimer {
+    display: none;
+}
 
 /*Section one*/
 .home {
